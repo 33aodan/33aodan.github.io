@@ -3,6 +3,73 @@ body{
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+nav{
+    text-align: center;
+}
+ul li {
+    list-style-type: '-';
+  }
+.list1 {
+    padding-left: 1vw;
+    margin-left: 13vw;
+}
+.list2 {
+    padding-left: 1vw;
+    margin-left: 9vw;
+}
+.box{
+    margin-top: 10vh;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    background-color: #BCA37F;
+    padding: 1vw 1vw 0vh 1vw;
+}
+.title{
+    font-size: 10vw;
+    text-align: center;
+    white-space: nowrap;
+    color: #113946;
+    font-family: 'LTCushion';
+    margin: 0vw;
+}
+.navlink{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: 1vh 1vw 1vh 1vw;
+    white-space: nowrap;
+    color: #113946;
+    text-decoration: none;
+    font-size: 2vw;
+    background-color: #ac9474;
+    font-family: 'SundayRomantic';
+}
+.pMARGIN{
+    margin: 0;
+}
+.pfp{
+    margin: 1vw;
+    width: 30vw;
+}
+.container { 
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1vw;
+}
+.subtitle {
+    font-size: 3vw;
+    font-family: 'Apple-bold';
+    color: #113946;
+}
+.text { 
+    display: inline;
+    font-size: 2vw;
+    font-family: 'Apple';
+    color: #113946;
+}
+.center{
+    text-align: center;
+}
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
@@ -10,6 +77,22 @@ body{
     }
      100% {
         opacity: 1;
-        background-color: #191970;
+        background-color: #EAD7BB;
      }
+}
+@font-face {
+    font-family: 'LTCushion';
+    src: url(assets/fonts/title.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Apple-bold';
+    src: url(assets/fonts/AppleGaramond-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Apple';
+    src: url(assets/fonts/AppleGaramond.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'SundayRomantic';
+    src: url(assets/fonts/SundayRomantic-Regular\ DEMO.otf) format('opentype');
 }

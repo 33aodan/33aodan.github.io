@@ -6,10 +6,10 @@ body{
 }
 .intro-card {
     text-align: center;
-    margin-top: 15vw;
+    margin-top: 10vh;
     margin-left: 20vw;
     margin-right: 20vw;
-    margin-bottom: 0vw;
+    margin-bottom: 0vh;
     background-color: red;
     padding: 0vw;
     border-radius: 1vw 1vw 0vw 0vw;
@@ -20,10 +20,10 @@ body{
 }
 .intro-card2 {
     text-align: center;
-    margin-top: 0vw;
+    margin-top: 0vh;
     margin-left: 20vw;
     margin-right: 20vw;
-    margin-bottom: 0vw;
+    margin-bottom: 0vh;
     background-color: white;
     padding: 0vw 0vw 0vw 0vw;
     border-radius: 0vw;
@@ -32,10 +32,10 @@ body{
 }
 .intro-card3 {
     text-align: center;
-    margin-top: 0vw;
+    margin-top: 0vh;
     margin-left: 20vw;
     margin-right: 20vw;
-    margin-bottom: 0vw;
+    margin-bottom: 0vh;
     background-color: red;
     padding: 0vw;
     border-radius: 0vw 0vw 1vw 1vw;
