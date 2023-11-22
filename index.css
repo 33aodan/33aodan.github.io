@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(255, 255, 255);
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.intro-card {
+    text-align: center;
+    margin-top: 15vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 0vw;
+    background-color: red;
+    padding: 0vw;
+    border-radius: 1vw 1vw 0vw 0vw;
+    border-left: .5vw solid rgba(0, 0, 0, 0.25);
+    border-right: .5vw solid rgba(0, 0, 0, 0.25);
+    border-top: .5vw solid rgba(0, 0, 0, 0.25);
+    
+}
+.intro-card2 {
+    text-align: center;
+    margin-top: 0vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 0vw;
+    background-color: white;
+    padding: 0vw 0vw 0vw 0vw;
+    border-radius: 0vw;
+    border-left: .5vw solid rgba(0, 0, 0, 0.500);
+    border-right: .5vw solid rgba(0, 0, 0, 0.500);
+}
+.intro-card3 {
+    text-align: center;
+    margin-top: 0vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 0vw;
+    background-color: red;
+    padding: 0vw;
+    border-radius: 0vw 0vw 1vw 1vw;
+    border-left: .5vw solid rgba(0, 0, 0, 0.25);
+    border-right: .5vw solid rgba(0, 0, 0, 0.25);
+    border-bottom: .5vw solid rgba(0, 0, 0, 0.25);
+}
+.hellotxt{
+    color: white;
+    font-size: 10vw;
+    margin: 0vw;
+    font-family: 'heativas';
+}
+.mynametxt{
+    color: white;
+    font-size: 4vw;
+    margin: 0vw;
+    font-family: 'heativas';
+}
+.nametxt{
+    color: black;
+    font-size: 8.5vw;
+    margin: 0vw;
+    padding: 2vw 0vw 2vw 0vw;
+    font-family: 'cheese_cake';
+}
+.introtxt{
+    opacity: 30%;
+    font-size: 3vw;
+    margin: 0vw;
+    padding: 1vw 0vw 1vw 0vw;
+    font-family: 'gobold';
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.fade-out {
+    animation: fadeOutAnimation 1s ease;
+}
+
+@font-face {
+    font-family: 'heativas';
+    src: url(assets/fonts/Heavitas.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'cheese_cake';
+    src: url(assets/fonts/cheesecake.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'gobold';
+    src: url(assets/fonts/goboldlight.otf) format('opentype');
+}
